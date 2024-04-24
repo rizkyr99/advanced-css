@@ -1,0 +1,251 @@
+@import url('https://fonts.cdnfonts.com/css/modern-no-20');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f5f7;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.cta {
+  padding: 20px 56px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  font-weight: 600;
+}
+
+.topbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  background-color: #c4c4c4;
+  padding: 0 80px;
+  height: 50px;
+  font-size: 14px;
+}
+
+.topbar-sale {
+  text-align: center;
+  transition: 300ms;
+}
+
+.topbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 16px;
+}
+
+.topbar-links a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: 300ms;
+}
+
+.topbar-sale:hover,
+.topbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 66px;
+}
+
+.nav-menu li a {
+  font-family: 'Modern No. 20', sans-serif;
+  font-size: 18px;
+}
+
+main {
+  max-width: 1236px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero .hero-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+.hero .hero-details h1 {
+  font-size: 36px;
+  font-weight: 300;
+  font-family: 'Modern No. 20', sans-serif;
+  margin-bottom: 20px;
+}
+
+.hero .hero-details p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  max-width: 450px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-details {
+  padding: 20px 40px;
+}
+
+.product-colors {
+  font-size: 12px;
+  font-weight: 600;
+  color: #848484;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.banner-1 {
+  display: flex;
+  gap: 40px;
+  align-items: end;
+  justify-content: space-between;
+  margin-block: 80px;
+}
+
+.banner-1-details {
+  max-width: 250px;
+}
+
+.banner-1-details h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.banner-1-details p {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.banner-1 img {
+  width: 650px;
+}
+
+.banner-2 {
+  margin-block: 156px 30px;
+  position: relative;
+}
+
+.banner-2 img {
+  width: 100%;
+}
+
+.banner-2-details {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  bottom: 40px;
+  right: 40px;
+}
+
+.banner-2-details h3 {
+  color: #ffffff;
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 14px;
+}
+
+.banner-2-details .cta {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  padding: 40px 100px;
+  background-color: #ffffff;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+
+.footer-links a {
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  font-weight: 600;
+}
+
+.footer-socials {
+  margin: 0 auto;
+}
+
+.footer-social-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 16px;
+}
+
+footer .store-locator {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 48px;
+  font-size: 14px;
+}
